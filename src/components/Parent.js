@@ -7,7 +7,7 @@ const Parent = () => {
 
     return (
        <div>
-        <h1>Parent component</h1>
+        <h1>Parent Component</h1>
           <div>
               {!isLoggedIn &&
                 <Form state={setIsLoggedIn} />}
